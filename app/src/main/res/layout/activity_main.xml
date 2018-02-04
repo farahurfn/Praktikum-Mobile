@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.farah_1202152322_modul1.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="20dp"
+            android:text="Makan Malam"
+            android:textSize="30sp"/>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="120dp"
+            android:text="dengan Milea"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/menu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="22dp"
+            android:gravity="bottom"
+            android:inputType="textMultiLine" />
+
+        <EditText
+            android:id="@+id/porsi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="22dp"
+            android:inputType="textMultiLine" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_weight="1"
+                android:background="@color/colorAccent"
+                android:text="EATBUS" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_weight="1"
+                android:background="@color/colorAccent"
+                android:text="APNORMAL" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
